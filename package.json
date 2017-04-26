@@ -4,7 +4,10 @@
   "description": "A TypeScript type that applies to all JS values but with stricter type checking than `any`.",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dherman/ts-unknown.git"
