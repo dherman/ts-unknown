@@ -1,6 +1,6 @@
 {
   "name": "ts-unknown",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A TypeScript type that applies to all JS values but with stricter type checking than `any`.",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/dherman/ts-unknown#readme",
   "devDependencies": {
+    "ts-dict": "^0.1.1",
     "typescript": "^2.2.2"
   }
 }
